@@ -5,32 +5,52 @@ html {
 
 body {
 	font: 70% georgia, sans-serif;
-	line-height: 1.88889;
 	color: #ffffff;
 	background: #000000;
-	margin: 0;
-	padding: 0;
+	width: 85%;
+}
+#zen-supporting {
+	display: grid;
+	grid-template-columns: 1fr 3fr 1fr;
+	grid-column-gap: 10px;
 }
 
-p {
-	margin-top: 0 200px 0 700px;
-	text-align: right;
-}
-
-h3 {
+section { 
+	background-image: url("nightcity.jpg");
+	padding-bottom: 200px;
+}	
+header h1 {
 	font-family: dr-sugiyama, arizonia, Segoe Script;
 	letter-spacing: 1px;
 	margin-bottom: 0;
 	color: #06B1F9;
 	font-size: 24px;
-	text-align: right;
+	text-align: left;
 }
-
+header h2 {
+	font-family: dr-sugiyama, arizonia, Segoe Script;
+	letter-spacing: 1px;
+	margin-bottom: 0;
+	color: #06B1F9;
+	font-size: 24px;
+	text-align: left;
+}
+/*3 {
+	
+}
 a:link {
 	font-weight: bold;
 	text-decoration: inherit;
 	color: #0965D3;
+}*/
+/*p {
+	margin-top: 0 200px 0 700px;
+	text-align: right;
 }
+
+
+
+
 
 a:visited {
 	font-weight: bold;
@@ -52,7 +72,7 @@ abbr {
 
 /* specific divs */
 
-.page-wrapper {
+/*.page-wrapper {
 	background: url(nightcity.jpg) no-repeat top left;
 	padding: 0 175px 0 110px;
 	margin: 0;
@@ -64,35 +84,7 @@ abbr {
 	width: 100%;
 }
 
-header h1 {
-	font-size: 60px;
-	color: #F7F4F4;
-	margin-top: 0;
-	margin-bottom: 10px;
-	display: block;
-	width: 700px;
-	padding: 0;
-	height: 15px;
-	position: relative;
-	left: 130px;
-	float: left;
-	font-family: dr-sugiyama, arizonia, Segoe Script;
-}
 
-header h2 {
-	font-size: 30px;
-	color: #727AD9;
-	margin-top: 70px;
-	margin-bottom: 10px;
-	display: block;
-	width: 700px;
-	padding: 0;
-	height: 18px;
-	position: relative;
-	left: 130px;
-	float: left;
-	font-family: dr-sugiyama, arizonia, Segoe Script;
-}
 
 header {
 	padding-top: 20px;
@@ -222,3 +214,5 @@ footer a:visited {
 .sidebar li a:visited {
 	color: #095FF7;
 }
+
+*/
