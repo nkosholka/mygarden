@@ -4,17 +4,17 @@ html {
 }
 
 body {
-	font: 80% georgia, sans-serif;
+	font: 70% georgia, sans-serif;
 	line-height: 1.88889;
 	color: #ffffff;
 	background: #000000;
-	margin: 0o;
+	margin: 0;
 	padding: 0;
 }
 
 p {
-	margin-top: 0 700px 0 700px;
-	text-align: justify;
+	margin-top: 0 200px 0 700px;
+	text-align: right;
 }
 
 h3 {
